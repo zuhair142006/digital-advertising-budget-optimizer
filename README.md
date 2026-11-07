@@ -1,6 +1,6 @@
 # Digital Advertising Budget Optimizer — Daraz Pakistan
 
-**Big Data Analytics, Project 2.** This continues Project 1, [*Pakistani Social Media Content Detective*](https://github.com/zuhair142006/pakistani-social-media-detective).
+
 
 **Management's question:** where should Daraz spend the next **Rs 1 million** across Facebook, Instagram, Google, TikTok and YouTube?
 
