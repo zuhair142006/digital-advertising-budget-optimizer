@@ -1,8 +1,0 @@
-pandas
-numpy
-pyarrow
-pyspark
-mrjob
-psutil
-matplotlib
-standard-pipes; python_version >= "3.13"
