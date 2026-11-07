@@ -1,0 +1,71 @@
+  10K    pandas     csv  wall    0.46s  query    0.04s  mem     118 MB
+  10K    pandas     csv  wall    0.39s  query    0.03s  mem     118 MB
+  10K    pandas     csv  wall    0.43s  query    0.02s  mem     118 MB
+  10K mapreduce     csv  wall    2.35s  query    1.81s  mem     353 MB
+  10K mapreduce     csv  wall    2.23s  query    1.70s  mem     353 MB
+  10K mapreduce     csv  wall    2.46s  query    1.87s  mem     352 MB
+  10K     spark     csv  wall   11.68s  query    4.48s  mem     683 MB
+  10K     spark     csv  wall   11.06s  query    4.42s  mem     717 MB
+  10K     spark     csv  wall   11.26s  query    4.59s  mem     713 MB
+  10K    pandas parquet  wall    0.35s  query    0.03s  mem     141 MB
+  10K    pandas parquet  wall    0.40s  query    0.04s  mem     139 MB
+  10K    pandas parquet  wall    0.46s  query    0.04s  mem     139 MB
+  10K     spark parquet  wall   11.61s  query    5.06s  mem     729 MB
+  10K     spark parquet  wall   11.34s  query    4.75s  mem     686 MB
+  10K     spark parquet  wall   11.55s  query    5.01s  mem     768 MB
+ 100K    pandas     csv  wall    0.46s  query    0.10s  mem     152 MB
+ 100K    pandas     csv  wall    0.54s  query    0.12s  mem     152 MB
+ 100K    pandas     csv  wall    0.54s  query    0.11s  mem     152 MB
+ 100K mapreduce     csv  wall    2.90s  query    2.32s  mem     353 MB
+ 100K mapreduce     csv  wall    3.16s  query    2.62s  mem     353 MB
+ 100K mapreduce     csv  wall    2.58s  query    2.14s  mem     353 MB
+ 100K     spark     csv  wall   12.15s  query    5.54s  mem     789 MB
+ 100K     spark     csv  wall   11.62s  query    4.84s  mem     797 MB
+ 100K     spark     csv  wall   12.01s  query    5.33s  mem     856 MB
+ 100K    pandas parquet  wall    0.43s  query    0.06s  mem     161 MB
+ 100K    pandas parquet  wall    0.38s  query    0.05s  mem     161 MB
+ 100K    pandas parquet  wall    0.43s  query    0.06s  mem     157 MB
+ 100K     spark parquet  wall   11.51s  query    4.78s  mem     705 MB
+ 100K     spark parquet  wall   12.00s  query    5.26s  mem     740 MB
+ 100K     spark parquet  wall   12.30s  query    5.17s  mem     739 MB
+   1M    pandas     csv  wall    0.98s  query    0.63s  mem     205 MB
+   1M    pandas     csv  wall    0.95s  query    0.61s  mem     205 MB
+   1M    pandas     csv  wall    0.95s  query    0.57s  mem     205 MB
+   1M mapreduce     csv  wall    6.84s  query    6.31s  mem     353 MB
+   1M mapreduce     csv  wall    7.14s  query    6.64s  mem     353 MB
+   1M mapreduce     csv  wall    7.04s  query    6.56s  mem     364 MB
+   1M     spark     csv  wall   13.73s  query    6.80s  mem     960 MB
+   1M     spark     csv  wall   12.94s  query    6.05s  mem     953 MB
+   1M     spark     csv  wall   13.67s  query    6.28s  mem    1214 MB
+   1M    pandas parquet  wall    0.51s  query    0.13s  mem     296 MB
+   1M    pandas parquet  wall    0.50s  query    0.16s  mem     288 MB
+   1M    pandas parquet  wall    0.56s  query    0.15s  mem     296 MB
+   1M     spark parquet  wall   12.69s  query    5.65s  mem     842 MB
+   1M     spark parquet  wall   12.05s  query    5.44s  mem     733 MB
+   1M     spark parquet  wall   13.21s  query    5.98s  mem     820 MB
+  10M    pandas     csv  wall    7.13s  query    6.62s  mem     984 MB
+  10M mapreduce     csv  wall   55.76s  query   55.05s  mem     607 MB
+  10M     spark     csv  wall   22.11s  query   14.55s  mem    1204 MB
+  10M    pandas parquet  wall    1.47s  query    1.05s  mem    1432 MB
+  10M     spark parquet  wall   14.28s  query    7.24s  mem    1008 MB
+    size     engine   format  wall_s  work_s  startup_s  peak_mem_mb
+0    10K     pandas      csv    0.43    0.03       0.00       118.21
+1    10K  mapreduce      csv    2.35    1.81       0.00       352.66
+2    10K      spark      csv   11.26    4.48       5.54       712.63
+3    10K     pandas  parquet    0.40    0.04       0.00       138.70
+4    10K      spark  parquet   11.55    5.01       5.26       728.54
+5   100K     pandas      csv    0.54    0.11       0.00       151.79
+6   100K  mapreduce      csv    2.90    2.32       0.00       352.84
+7   100K      spark      csv   12.01    5.33       5.47       797.12
+8   100K     pandas  parquet    0.43    0.06       0.00       161.08
+9   100K      spark  parquet   12.00    5.17       5.57       738.77
+10    1M     pandas      csv    0.95    0.61       0.00       204.85
+11    1M  mapreduce      csv    7.04    6.56       0.00       352.90
+12    1M      spark      csv   13.67    6.28       5.74       960.47
+13    1M     pandas  parquet    0.51    0.15       0.00       295.97
+14    1M      spark  parquet   12.69    5.65       5.69       819.92
+15   10M     pandas      csv    7.13    6.62       0.00       984.04
+16   10M  mapreduce      csv   55.76   55.05       0.00       607.46
+17   10M      spark      csv   22.11   14.55       6.21      1204.20
+18   10M     pandas  parquet    1.47    1.05       0.00      1431.88
+19   10M      spark  parquet   14.28    7.24       5.98      1007.81

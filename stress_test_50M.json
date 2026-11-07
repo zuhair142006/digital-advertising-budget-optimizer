@@ -1,0 +1,20 @@
+{
+  "rows": 50000000,
+  "csv_gb": 4.83,
+  "memory_limit_gb": 6,
+  "pandas_naive": {
+    "ok": false,
+    "seconds": 39.2,
+    "error": "numpy._core._exceptions._ArrayMemoryError: Unable to allocate 381. MiB for an array with shape (50000000,) and data type"
+  },
+  "pandas_optimised": {
+    "ok": false,
+    "seconds": 32.1,
+    "error": "numpy._core._exceptions._ArrayMemoryError: Unable to allocate 381. MiB for an array with shape (50000000,) and data type"
+  },
+  "spark": {
+    "ok": true,
+    "seconds": 57.5,
+    "error": ""
+  }
+}

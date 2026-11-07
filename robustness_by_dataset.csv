@@ -1,0 +1,17 @@
+dataset,method,Facebook,Instagram,Google,TikTok,YouTube,sim_revenue_M
+10K,"original (no cap, no shrinkage)",30.7,14.3,45.0,5.0,5.0,4.672
+10K,cap at 0.95 only,30.7,14.3,45.0,5.0,5.0,4.672
+10K,shrink only,29.0,16.0,45.0,5.0,5.0,4.749
+10K,engine: shrink+bagging,30.0,16.4,43.6,5.0,5.0,4.669
+100K,"original (no cap, no shrinkage)",22.9,22.1,45.0,5.0,5.0,4.691
+100K,cap at 0.95 only,22.9,22.1,45.0,5.0,5.0,4.691
+100K,shrink only,23.0,22.0,45.0,5.0,5.0,4.72
+100K,engine: shrink+bagging,23.6,23.0,43.4,5.0,5.0,4.774
+1M,"original (no cap, no shrinkage)",29.4,32.9,27.7,5.0,5.0,4.744
+1M,cap at 0.95 only,29.4,32.9,27.7,5.0,5.0,4.744
+1M,shrink only,29.4,30.8,29.8,5.0,5.0,4.726
+1M,engine: shrink+bagging,29.2,31.2,29.6,5.0,5.0,4.732
+10M,"original (no cap, no shrinkage)",13.8,11.5,24.6,45.0,5.0,4.171
+10M,cap at 0.95 only,31.8,23.1,35.2,5.0,5.0,4.812
+10M,shrink only,30.9,22.7,36.4,5.0,5.0,4.718
+10M,engine: shrink+bagging,31.0,22.4,36.6,5.0,5.0,4.765
