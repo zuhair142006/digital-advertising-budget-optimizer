@@ -1,0 +1,4 @@
+data/*
+!data/daraz_ads_10K.csv
+__pycache__/
+*.pyc
